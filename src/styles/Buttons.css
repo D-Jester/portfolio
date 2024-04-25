@@ -1,0 +1,19 @@
+.stylish-button{
+    padding: 1.2rem 3.6rem;
+    border-radius: 50px;
+    color: rgb(216, 205, 205);
+    text-shadow: 0 0 3px black;
+    background: linear-gradient(90deg, #0162c8, #55e7fc);
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal; 
+    transition: 200ms;
+    cursor: pointer;
+    width: 34rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.8rem;
+}
+.stylish-button:active{
+    transform: scale(0.93);
+}

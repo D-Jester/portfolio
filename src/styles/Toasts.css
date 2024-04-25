@@ -1,0 +1,35 @@
+.Toasts{
+    position:absolute;
+    color: transparent;
+    top: -100%;
+    left: 2rem;
+    height: auto;
+    width: 40rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 10px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;    
+    transition: 0.5s;
+    visibility: hidden;
+}
+.correct{
+    background-color: rgb(51, 177, 51);
+    box-shadow: 0 0 10px green, 0 0 20px green;
+    color: white;
+}
+.warning{
+    background-color: rgb(156, 153, 60);
+    box-shadow: 0 0 10px yellow, 0 0 20px yellow;
+    color: white;
+}
+.error{
+    background-color: rgb(156, 60, 60);
+    box-shadow: 0 0 10px red, 0 0 20px red;
+    color: white;
+}

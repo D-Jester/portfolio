@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Whisper&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    /* background: linear-gradient(90deg, rgb(112, 35, 21),rgb(88, 30, 30),rgb(79, 30, 30), rgb(30, 17, 17), rgb(0, 0, 0)); */
+    background: linear-gradient(90deg, rgb(28, 44, 84),rgb(19, 21, 58),rgb(14, 14, 51), rgb(10, 10, 66), rgb(0, 0, 0));
+    /* background: linear-gradient(90deg, rgb(21, 112, 54),rgb(30, 88, 45),rgb(32, 79, 30), rgb(20, 30, 17), rgb(0, 0, 0)); */
+    /* background: linear-gradient(90deg, rgb(97, 21, 112),rgb(62, 28, 66),rgb(47, 22, 47), rgb(27, 18, 30), rgb(0, 0, 0)); */
+    /* background: linear-gradient(90deg, rgb(21, 94, 112),rgb(25, 54, 71),rgb(24, 36, 56), rgb(17, 20, 30), rgb(0, 0, 0)); */
+    overflow-x: hidden;
+}
+::-webkit-scrollbar{
+    width: 6px;
+
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent,rgb(111, 26, 214));
+    border-radius: 50px;
+}

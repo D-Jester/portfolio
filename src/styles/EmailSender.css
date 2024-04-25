@@ -1,0 +1,102 @@
+.emailSender{
+    position: relative;
+    height: 50rem;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 30px;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    /* border-left: solid 2px white; */
+}
+.emailSender form{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    border-left: solid 2px white;
+    border-top: solid 2px transparent;
+    border-bottom: solid 2px transparent;
+}
+.emailSender form .info{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.emailSender form .info .input-group{
+    width: 45%;
+}
+.emailSender .input-group{
+    position: relative;
+    width: 100%;
+    height: 49px;
+    margin-bottom: 20px;
+}
+.emailSender .input-group input{
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 2px white ;
+    width: 100%;
+    outline: 0;
+    transition: 120ms;
+    height: 60%;
+    caret-color: white;
+    color: white;
+}
+.emailSender .input-group label{
+    position: relative;
+    top: -50%;
+    left: 0;
+    pointer-events: none;
+    color: white;
+    font-weight: 300;
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+.emailSender .input-group .input:focus ~ label,
+.emailSender .input-group .input:valid ~ label{
+    top: -100%;
+}
+.emailSender button{
+    position: relative;
+}
+.emailSender .textArea{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.emailSender .textArea textarea{
+    background-color: transparent;
+    border: solid 2px white ;
+    width: 100%;
+    outline: 0;
+    transition: 120ms;
+    height: auto;
+    caret-color: white;
+    color: white;
+    padding: 8px;
+}
+.emailSender .textArea label{
+    position: relative; 
+    left: 0;
+    pointer-events: none;
+    color: white;
+    font-weight: 300;
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+.emailSender h1{
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
